@@ -56,7 +56,7 @@ const app http.createServer((request, response) => {
   })
 
     app.get("/", (request, response) => {
-      response.send("<div><h1>Hello World!<h1/><p>It's easy to undertand this code, for example the slash in the get it works for get this part of code, and if you want the notes use; api/notes<p/><div/>")
+      response.send("<div><h1>Buenas hay boli?!<h1/><p>Cómo estás isabella? jaskldjaklsd<p/><div/>")
       //response.send(`map of notes: ${notes.toString()}`)
     })
     app.get("/api/notes", (request, response) => {
